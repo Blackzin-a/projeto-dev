@@ -468,6 +468,90 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ut voluptatem qu
     <strong style="color: red;">alo</strong>
 </h1>
 
+<!-- 
+       
+    <table> 
+       
+    Prós 
+    - Visualização de dados via linhas e colunas.
+    - Boa acessibilidade para leitura de dados
+
+    Contras
+    - Pouco flexível
+    - Precisa de estilização para melhor visualização 
+
+    Não usar 
+    - Para criar seu layout
+-->
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+    </tr>
+    <tr>
+        <td>Mayk</td>
+        <td>35</td>
+    </tr>
+    <tr>
+       <td>Diego</td>
+       <td>25</td> 
+    </tr>
+</table>
+
+<!--
+    2 Lojas
+        Quantos produtos foram produzidos, quantos 
+        vendidos e agrupado por nome dos produtos
+-->
+
+<table>
+    <caption>Produzidos x Vendidos por Loja</caption>
+
+
+
+
+<colgroup>
+    <col>
+    <col span="2" style="background-color: red;">
+    <col span="2" style="background-color: rgb(13, 85, 229);">
+
+</colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Afônso Pena</th>
+            <th colspan="2" scope="colgroup">Antônia Pereira</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+
+</table>
+
 
  </body>
  </html>
